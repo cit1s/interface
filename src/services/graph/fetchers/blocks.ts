@@ -1,4 +1,4 @@
-import { ChainId } from '@sushiswap/core-sdk'
+import { ChainId } from '@cit1swap/core-sdk'
 import { GRAPH_HOST } from 'app/services/graph/constants'
 import { blockQuery, blocksQuery, massBlocksQuery } from 'app/services/graph/queries'
 import { getUnixTime, startOfHour, subHours } from 'date-fns'
@@ -12,6 +12,7 @@ export const BLOCKS = {
   [ChainId.BSC]: 'matthewlilley/bsc-blocks',
   [ChainId.HARMONY]: 'sushiswap/harmony-blocks',
   [ChainId.AVALANCHE]: 'matthewlilley/avalanche-blocks',
+  [ChainId.AVALANCHE_TESTNET]: 'sachinvirtuosity/avalancefujiblock',
   [ChainId.CELO]: 'ubeswap/celo-blocks',
   [ChainId.ARBITRUM]: 'sushiswap/arbitrum-blocks',
   [ChainId.OKEX]: 'okexchain-blocks/oec',

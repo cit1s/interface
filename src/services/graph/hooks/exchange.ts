@@ -1,4 +1,4 @@
-import { ChainId } from '@sushiswap/core-sdk'
+import { ChainId } from '@cit1swap/core-sdk'
 import { useActiveWeb3React } from 'app/services/web3'
 import stringify from 'fast-json-stable-stringify'
 import useSWR, { SWRConfiguration } from 'swr'
@@ -215,6 +215,7 @@ export function useLiquidityPositions({
     (_, chainId) => getLiquidityPositions(chainId, variables),
     swrConfig
   )
+  console.log(data, 'useLiquidityPositions')
   return data
 }
 

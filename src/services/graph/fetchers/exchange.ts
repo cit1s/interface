@@ -1,4 +1,4 @@
-import { ChainId } from '@sushiswap/core-sdk'
+import { ChainId } from '@cit1swap/core-sdk'
 import { GRAPH_HOST } from 'app/services/graph/constants'
 import {
   dayDatasQuery,
@@ -26,6 +26,7 @@ export const EXCHANGE = {
   [ChainId.BSC]: 'sushiswap/bsc-exchange',
   [ChainId.HARMONY]: 'sushiswap/harmony-exchange',
   [ChainId.AVALANCHE]: 'sushiswap/avalanche-exchange',
+  [ChainId.AVALANCHE_TESTNET]: 'sachinvirtuosity/avalanchefujiexchange',
   [ChainId.CELO]: 'jiro-ono/sushitestsubgraph',
   [ChainId.ARBITRUM]: 'sushiswap/arbitrum-exchange',
   [ChainId.MOONRIVER]: 'sushiswap/moonriver-exchange',

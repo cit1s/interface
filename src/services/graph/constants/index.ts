@@ -1,4 +1,4 @@
-import { ChainId } from '@sushiswap/core-sdk'
+import { ChainId } from '@cit1swap/core-sdk'
 
 const THE_GRAPH = 'https://api.thegraph.com'
 const NAS_GRAPH = 'https://graph.kkt.one/node'
@@ -11,6 +11,7 @@ export const GRAPH_HOST = {
   [ChainId.FANTOM]: THE_GRAPH,
   [ChainId.BSC]: THE_GRAPH,
   [ChainId.AVALANCHE]: THE_GRAPH,
+  [ChainId.AVALANCHE_TESTNET]: THE_GRAPH,
   [ChainId.CELO]: THE_GRAPH,
   [ChainId.ARBITRUM]: THE_GRAPH,
   [ChainId.HARMONY]: 'https://sushi.graph.t.hmny.io',

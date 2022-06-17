@@ -11,7 +11,7 @@ import {
   KASHI_ADDRESS,
   Pair,
   Token,
-} from '@sushiswap/core-sdk'
+} from '@cit1swap/core-sdk'
 import { CHAINLINK_PRICE_FEED_MAP } from 'app/config/oracles/chainlink'
 import { BASES_TO_TRACK_LIQUIDITY_FOR, PINNED_PAIRS } from 'app/config/routing'
 import { e10 } from 'app/functions'
@@ -337,6 +337,7 @@ export function useTrackedTokenPairs(): [Token, Token][] {
 
   // pairs saved by users
   const savedSerializedPairs = useAppSelector(({ user: { pairs } }) => pairs)
+  console.log(savedSerializedPairs, 'savedSerializedPairs')
 
   const userPairs: [Token, Token][] = useMemo(() => {
     if (!chainId || !savedSerializedPairs) return []
@@ -347,6 +348,8 @@ export function useTrackedTokenPairs(): [Token, Token][] {
       return [deserializeToken(forChain[pairId].token0), deserializeToken(forChain[pairId].token1)]
     })
   }, [savedSerializedPairs, chainId])
+
+  console.log(userPairs, 'userPairs')
 
   const combinedList = useMemo(
     () => userPairs.concat(generatedPairs).concat(pinnedPairs),

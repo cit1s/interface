@@ -1,4 +1,4 @@
-import { ChainId } from '@sushiswap/core-sdk'
+import { ChainId } from '@cit1swap/core-sdk'
 
 const config = {
   // Global configuration

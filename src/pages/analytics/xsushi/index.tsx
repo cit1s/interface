@@ -1,6 +1,6 @@
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { ChainId, SUSHI_ADDRESS } from '@sushiswap/core-sdk'
+import { ChainId, SUSHI_ADDRESS } from '@cit1swap/core-sdk'
 import TimespanGraph from 'app/components/TimespanGraph'
 import Typography from 'app/components/Typography'
 import { XSUSHI } from 'app/config/tokens'

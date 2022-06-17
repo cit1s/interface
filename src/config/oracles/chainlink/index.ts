@@ -1,4 +1,4 @@
-import { ChainId } from '@sushiswap/core-sdk'
+import { ChainId } from '@cit1swap/core-sdk'
 
 import ARBITRUM from './mappings/arbitrum'
 import AVALANCHE from './mappings/avalanche'

@@ -1,5 +1,5 @@
-import { Token } from '@sushiswap/core-sdk'
-import { PoolType } from '@sushiswap/trident-sdk'
+import { Token } from '@cit1swap/core-sdk'
+import { PoolType } from '@cit1swap/trident-sdk'
 import { getApy } from 'app/functions'
 import {
   TridentPositionRow,
@@ -51,8 +51,8 @@ export function useLegacyLiquidityPositionsBalances({ account, chainId }: Positi
         ? positions.map((position: any) => {
             const pair = pairs.find((pair: any) => pair.id === position.pair.id)
             const pair1w = pairs1w?.find((pair: any) => pair.id === position.pair.id) ?? pair
-
-            console.log(pair.volumeUSD - pair1w.volumeUSD, pairs1w, pair.reserveUSD)
+            console.log(pair.volumeUSD, pair.reserveUSD, pair, 'rpair')
+            console.log(pair.volumeUSD - pair1w.volumeUSD, pairs1w, pair.reserveUSD, 'reserve')
 
             return {
               id: position.id,

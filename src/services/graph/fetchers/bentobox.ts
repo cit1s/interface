@@ -1,4 +1,4 @@
-import { ChainId, CurrencyAmount, JSBI, Token } from '@sushiswap/core-sdk'
+import { ChainId, CurrencyAmount, JSBI, Token } from '@cit1swap/core-sdk'
 import { aprToApy, toAmountCurrencyAmount } from 'app/functions'
 import { GRAPH_HOST } from 'app/services/graph/constants'
 import {

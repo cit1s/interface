@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount } from '@sushiswap/core-sdk'
+import { Currency, CurrencyAmount } from '@cit1swap/core-sdk'
 
 export interface Assets {
   asset: CurrencyAmount<Currency>

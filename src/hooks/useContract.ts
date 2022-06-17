@@ -18,12 +18,12 @@ import {
   SUSHI_ADDRESS,
   TIMELOCK_ADDRESS,
   WNATIVE_ADDRESS,
-} from '@sushiswap/core-sdk'
+} from '@cit1swap/core-sdk'
 import { LIMIT_ORDER_HELPER_ADDRESS, STOP_LIMIT_ORDER_ADDRESS } from '@sushiswap/limit-order-sdk'
 import MISO from '@sushiswap/miso/exports/all.json'
 import ConstantProductPoolArtifact from '@sushiswap/trident/artifacts/contracts/pool/constant-product/ConstantProductPool.sol/ConstantProductPool.json'
 import TRIDENT from '@sushiswap/trident/exports/all.json'
-import { Pool, PoolType } from '@sushiswap/trident-sdk'
+import { Pool, PoolType } from '@cit1swap/trident-sdk'
 import { OLD_FARMS } from 'app/config/farms'
 import {
   ARGENT_WALLET_DETECTOR_ABI,
@@ -179,6 +179,7 @@ const MULTICALL_ADDRESS = {
   [ChainId.ARBITRUM]: '0xadF885960B47eA2CD9B55E6DAc6B42b7Cb2806dB',
   [ChainId.MOONBEAM]: '0x34c471ddceb20018bbb73f6d13709936fc870acc',
   [ChainId.AVALANCHE]: '0x8C0F842791F03C095b6c633759224FcC9ACe68ea',
+  [ChainId.AVALANCHE_TESTNET]: '0x8Ea1A41e6B00d37dc8C12381686d44645b12BfCd',
   [ChainId.BSC]: '0x47A307e3167820daf22a377D777371753758f59c',
   [ChainId.FANTOM]: '0xB1395e098c0a847CC719Bcf1Fc8114421a9F8232',
   [ChainId.CELO]: '0x3d0B3b816DC1e0825808F27510eF7Aa5E3136D75',

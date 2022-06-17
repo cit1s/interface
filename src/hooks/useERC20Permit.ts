@@ -9,7 +9,7 @@ import {
   Token,
   Trade as V2Trade,
   TradeType,
-} from '@sushiswap/core-sdk'
+} from '@cit1swap/core-sdk'
 import { DAI, USDC } from 'app/config/tokens'
 import { useSingleCallResult } from 'app/lib/hooks/multicall'
 import { useActiveWeb3React } from 'app/services/web3'
@@ -284,7 +284,7 @@ export function useERC20Permit(
 
 const REMOVE_V2_LIQUIDITY_PERMIT_INFO: PermitInfo = {
   version: '1',
-  name: 'SushiSwap LP Token',
+  name: 'Cit1sSwap LP Token',
   type: PermitType.AMOUNT,
 }
 

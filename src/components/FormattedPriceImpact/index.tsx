@@ -1,4 +1,4 @@
-import { Percent } from '@sushiswap/core-sdk'
+import { Percent } from '@cit1swap/core-sdk'
 import Typography from 'app/components/Typography'
 import { warningSeverity } from 'app/functions/prices'
 import React, { FC } from 'react'

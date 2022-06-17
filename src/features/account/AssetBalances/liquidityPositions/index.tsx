@@ -14,6 +14,7 @@ interface PositionBalances {
 
 export const AllLiquidityPositionsBalances = ({ account, chainId }: PositionBalances) => {
   const legacy = useLegacyLiquidityPositionsBalances({ account, chainId })
+  console.log(legacy, 'legacy')
   const trident = useTridentLiquidityPositionsBalances({ account, chainId })
 
   const { config } = useTridentLPTableConfig({ positions: [...(legacy || []), ...(trident || [])], chainId })

@@ -1,7 +1,7 @@
 {
-  "name": "SushiSwap",
-  "description": "Be a DeFi Chef with Sushi. Swap, earn, stack yields, lend, borrow, leverage all on one decentralized, community driven platform",
-  "short_name": "SushiSwap",
+  "name":"Cit1Swap",
+  "description": "Be a DeFi Chef with Cit1s. Swap, earn, stack yields, lend, borrow, leverage all on one decentralized, community driven platform",
+  "short_name": "Cit1Swap",
   "display": "standalone",
   "orientation": "portrait",
   "theme_color": "#0D0415",

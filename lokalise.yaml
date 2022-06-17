@@ -3,11 +3,11 @@
 
 # API token
 # You can create token at Personal profile page at https://lokalise.com/profile
-token: 036f7fa7f313dee2fb73caf35fd13ce0f6c67230
+token: 8adb580524d16fe7283dc2222b0c466ee0dd01b3
 
 # Default Project ID
 # If set, used for all endpoints requiring project-id flag.
-project-id: 7012984960a7b5fa85c295.58074118
+project-id: 728020866285244d278511.85163895
 
 # Number of retries for API requests.
 # Default is 3.

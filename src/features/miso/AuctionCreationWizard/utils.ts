@@ -1,5 +1,5 @@
 import { parseUnits } from '@ethersproject/units'
-import { Currency, CurrencyAmount, Fraction, JSBI, Percent, Price, Token } from '@sushiswap/core-sdk'
+import { Currency, CurrencyAmount, Fraction, JSBI, Percent, Price, Token } from '@cit1swap/core-sdk'
 import {
   AuctionCreationWizardInput,
   AuctionCreationWizardInputFormatted,

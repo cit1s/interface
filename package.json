@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "analyze": "ANALYZE=true yarn build && serve .next -n",
-    "build": "yarn lingui && next build",
+    "build": " next build",
     "circular": "madge --circular src --extensions ts,tsx,js,jsx",
     "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
     "e2e": "concurrently -k -s first -n \"app,e2e\" \"yarn dev\" \"yarn e2e:safe\"",
@@ -52,6 +52,8 @@
     "@binance-chain/bsc-connector": "^1.0.0",
     "@builder.io/partytown": "^0.5.2",
     "@chainsafe/dappeteer": "2.4.1",
+    "@cit1swap/core-sdk": "^1.0.10",
+    "@cit1swap/trident-sdk": "^1.0.5",
     "@clover-network/clover-connector": "^1.0.0",
     "@commitlint/cli": "^16.2.0",
     "@commitlint/config-conventional": "^16.2.0",
